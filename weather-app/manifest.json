@@ -1,6 +1,12 @@
 {
   "short_name": "React App",
   "name": "Create React App Sample",
+  "homepage": "https://dariuszsikorra.github.io/PortfolioPage/weather-app/index.html",
+"scripts": {
+  //...
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d build"
+}
   "icons": [
     {
       "src": "favicon.ico",
